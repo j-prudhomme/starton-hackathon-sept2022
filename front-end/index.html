@@ -1,133 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Get'In Starton Hackathon</title>
-    <!-- <meta name="description" content="Our first page"> -->
-</head>
-
-<body>
-    <div class="logoGetIn">
-        <img src="./img/logo/logo_getin.png" alt="Logo Get'!n">
-    </div>
-    <div class="sendFormDiv">
-        <form class="sendForm" action="./index.html">
-            <label>FROM :</label><br>
-            <input type="text" placeholder="0x6cf271270662be1C4fc1b7BB7D7D7Fc60Cc19125"><br>
-
-            <label>TO :</label><br>
-            <input type="text" placeholder="0x6cf271270662be1C4fc1b7BB7D7D7Fc60Cc19125"><br><br>
-
-            <label>AMOUNT :</label><br>
-            <input type="text" placeholder="12.88897"><br><br>
-
-            <input type="submit" value="SEND">
-        </form> 
-    </div>
-
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a><i></i></a><a><i class="icon ion-social-snapchat"></i></a><a><i class="icon ion-social-twitter"></i></a><a><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-            </ul>
-            <p class="copyright">Get'In © 2022</p>
-        </footer>
-    </div>
-
-</body>
-
-</html>
-
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <style>
-    input[type=text] {
-      width: 50%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
-    input[type=submit] {
-      width: 50%;
-      background-color: #29a6ee;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    input[type=submit]:hover {
-      background-color: #1b6794;
-    }
-    .sendFormDiv {
-        text-align: center;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .logoGetIn {
-        height: 100px;
-        justify-items: center;
-        margin-bottom: 4%;
-    }
-    img {
-        height: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .footer-basic {
-        padding:40px 0;
-        background-color:#ffffff;
-        color:#4b4c4d;
-    }
-    .footer-basic ul {
-        padding:0;
-        list-style:none;
-        text-align:center;
-        font-size:18px;
-        line-height:1.6;
-        margin-bottom:0;
-    }
-    .footer-basic li {
-        padding:0 10px;
-    }
-    .footer-basic ul a {
-        color:inherit;
-        text-decoration:none;
-        opacity:0.8;
-    }
-    .footer-basic ul a:hover {
-        opacity:1;
-    }
-    .footer-basic .social {
-        text-align:center;
-        padding-bottom:25px;
-    }
-    .footer-basic .social > a {
-        font-size:24px;
-        width:40px;
-        height:40px;
-        line-height:40px;
-        display:inline-block;
-        text-align:center;
-        border-radius:50%;
-        border:1px solid #ccc;
-        margin:0 8px;
-        color:inherit;
-        opacity:0.75;
-    }
-    .footer-basic .social > a:hover {
-        opacity:0.9;
-    }
-    .footer-basic .copyright {
-        margin-top:15px;
-        text-align:center;
-        font-size:13px;
-        color:#aaa;
-        margin-bottom:0;
-    }
+    
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+    margin-top: 40px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 58px;
+    width: 150px;
+    /* display: inline-block; */
+    /* font-size: 1px; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #5ebce1;
+    border: none;
+    border-radius: 8px;
+}
+
+.button:hover {background-color: #398aa9}
+
+.button:active {
+  background-color: #054568;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 </style>
+</head>
+<body>
+<div class="card">
+    <img src="./img/userOne.jpg" style="width:100%">
+    <h1>Rachid Menzoni</h1>
+    <p class="title">User since <i>5 days</i></p>
+    <h2>Description</h2>
+    <p>I love Get'In, I earn crypto by doing sport !</p>
+</div>
+
+<div class="div_buttons">
+    <button class="button"><a>31 GT earned !</a></button>
+    <button class="button"><a href="./widthdraw.html">Widthdraw</a></button>
+</div>
+
+</body> 
+</html>
