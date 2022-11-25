@@ -1,7 +1,7 @@
 
 # Project Title
 
-Our website for our Get'In project where you can see your profile and widthdraw your cryptocurrencies
+Our website for our Hackathon project where you can see your profile and widthdraw your cryptocurrencies
 
 First at the Home page, you can see your profile with the amount of crypto you earned. 
 You can see a beautiful graphic to see your performance.
